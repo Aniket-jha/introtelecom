@@ -2,7 +2,7 @@
 const dotenv= require('dotenv').config();
 const mail = require('@sendgrid/mail')
 
-mail.setApiKey('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');
+mail.setApiKey('***');
 
 export default function handler(req, res) {
   const body= JSON.parse(req.body)
